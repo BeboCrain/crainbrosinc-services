@@ -19,33 +19,87 @@
 <link rel="stylesheet" href="../css/styles-v3.css">
 <script type="application/ld+json">
 {
-    "@context":  "https://schema.org",
-    "@graph":  [
-                   {
-                       "@type":  "WebPage",
-                       "@id":  "https://services.crainbrosinc.com/pages/building-inspector.html#webpage",
-                       "url":  "https://services.crainbrosinc.com/pages/building-inspector.html",
-                       "name":  "Building Inspection Services | Crain Bros Inc | Northeast Arkansas",
-                       "description":  "Crain Bros Inc provides building inspection services for properties across Northeast Arkansas."
-                   },
-                   {
-                       "@type":  "Service",
-                       "@id":  "https://services.crainbrosinc.com/pages/building-inspector.html#service",
-                       "name":  "Building Inspection Services",
-                       "description":  "Crain Bros Inc provides building inspection services for properties across Northeast Arkansas.",
-                       "provider":  {
-                                        "@type":  "Organization",
-                                        "name":  "Crain Bros Inc"
-                                    },
-                       "areaServed":  {
-                                          "@type":  "AdministrativeArea",
-                                          "name":  "Northeast Arkansas"
-                                      },
-                       "mainEntityOfPage":  {
-                                                "@id":  "https://services.crainbrosinc.com/pages/building-inspector.html#webpage"
-                                            }
-                   }
-               ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://services.crainbrosinc.com/pages/building-inspector.html#webpage",
+      "url": "https://services.crainbrosinc.com/pages/building-inspector.html",
+      "name": "Building Inspection Services | Crain Bros Inc | Northeast Arkansas",
+      "description": "Crain Bros Inc provides building inspection services for properties across Northeast Arkansas."
+    },
+    {
+      "@type": "Service",
+      "@id": "https://services.crainbrosinc.com/pages/building-inspector.html#service",
+      "name": "Building Inspection Services",
+      "description": "Crain Bros Inc provides building inspection services for properties across Northeast Arkansas.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Crain Bros Inc"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Northeast Arkansas"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://services.crainbrosinc.com/pages/building-inspector.html#webpage"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://services.crainbrosinc.com/pages/building-inspector.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does your building inspection service cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Condition assessment, scope verification, and documentation supporting restoration and construction planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is scope verification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is confirming that a proposed scope of work matches what the property actually requires. It is useful when a scope has been prepared and the owner wants the property conditions independently assessed against it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this the same as a home inspection for a purchase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our inspection work supports restoration and construction planning. If you need an inspection for a specific purpose, call (870) 935-6019 and we will tell you whether what we do fits your situation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I receive from an inspection?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Documentation of the property conditions found. That record belongs to the property owner and can be used as they see fit, including when filing a claim on their own behalf."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does an inspection matter before a restoration project?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because scope written without a proper look at the property tends to miss things. Assessing conditions first means the plan reflects the building rather than an assumption about it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you inspect commercial buildings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We assess residential and commercial properties throughout Northeast Arkansas."
+          }
+        }
+      ]
+    }
+  ]
 }
 </script>
 </head>
@@ -80,6 +134,38 @@
       <p>Crain Bros Inc is a property damage restoration and construction company based in Jonesboro, AR, serving Northeast Arkansas since 1984.</p>
     </div>
   </section>
+  <section class="section section-accent">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="grid-3">
+        <article class="tile">
+          <h3>What does your building inspection service cover?</h3>
+          <p class="muted">Condition assessment, scope verification, and documentation supporting restoration and construction planning.</p>
+        </article>
+        <article class="tile">
+          <h3>What is scope verification?</h3>
+          <p class="muted">It is confirming that a proposed scope of work matches what the property actually requires. It is useful when a scope has been prepared and the owner wants the property conditions independently assessed against it.</p>
+        </article>
+        <article class="tile">
+          <h3>Is this the same as a home inspection for a purchase?</h3>
+          <p class="muted">Our inspection work supports restoration and construction planning. If you need an inspection for a specific purpose, call (870) 935-6019 and we will tell you whether what we do fits your situation.</p>
+        </article>
+        <article class="tile">
+          <h3>What do I receive from an inspection?</h3>
+          <p class="muted">Documentation of the property conditions found. That record belongs to the property owner and can be used as they see fit, including when filing a claim on their own behalf.</p>
+        </article>
+        <article class="tile">
+          <h3>Why does an inspection matter before a restoration project?</h3>
+          <p class="muted">Because scope written without a proper look at the property tends to miss things. Assessing conditions first means the plan reflects the building rather than an assumption about it.</p>
+        </article>
+        <article class="tile">
+          <h3>Do you inspect commercial buildings?</h3>
+          <p class="muted">Yes. We assess residential and commercial properties throughout Northeast Arkansas.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <section class="section section-accent">
     <div class="container">
       <h2>Other Services by Crain Bros Inc</h2>
