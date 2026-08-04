@@ -1,3 +1,71 @@
+# Crain Bros Inc - services.crainbrosinc.com
+# Crawler policy - reviewed 2026-08-01
+#
+# Every major search and AI agent is named explicitly so that
+# access is a deliberate decision and cannot be changed by
+# accident. Search access and training access are separate
+# controls. Both are permitted.
+
+# ---------- Default ----------
 User-agent: *
 Allow: /
+
+# ---------- Search engines ----------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ---------- AI search and citation agents ----------
+# These decide whether we can be CITED in AI answers.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# ---------- AI training agents ----------
+# Allowed. Training presence supports mentions in answers that
+# are generated without live browsing.
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ---------- Sitemap ----------
 Sitemap: https://services.crainbrosinc.com/sitemap.xml

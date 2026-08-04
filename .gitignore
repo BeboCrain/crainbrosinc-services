@@ -1,3 +1,11 @@
 # Crain Bros website image local work folders
 images/_incoming/
 images/_review/
+
+# Excluded from public deployment - D-20 / D-21
+docs/
+tools/
+css/styles.css
+
+# Photo pipeline drop folder - never deployed
+images/_drop/
