@@ -760,3 +760,204 @@ a:hover{ text-decoration:underline; }
     margin-left: 0;
   }
 }
+/* CBI header alignment v6: desktop logo lift and mobile brand tightening */
+.brand-mark {
+  transform: translateY(-24px);
+}
+
+@media (max-width: 760px) {
+  .brand-mark {
+    transform: translateY(-20px);
+  }
+
+  .brand-text {
+    margin-top: -26px;
+  }
+
+  .brand-name {
+    font-size: 1.15rem;
+    line-height: 1.08;
+  }
+
+  .brand-tagline-stacked {
+    gap: 2px;
+    font-size: .88rem;
+    line-height: 1.2;
+  }
+}
+/* CBI approved cropped-logo header and footer v17 */
+.brand {
+  flex: 0 0 245px;
+  max-width: 245px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.brand-mark {
+  flex: 0 0 auto;
+  width: 245px;
+  height: auto;
+  min-height: 0;
+  margin: 0;
+  transform: none;
+}
+
+.brand-logo {
+  display: block;
+  width: 245px;
+  height: auto;
+  margin: 0;
+  object-fit: contain;
+  object-position: left top;
+}
+
+.brand-text {
+  flex: 0 0 auto;
+  width: 245px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.brand-tagline-stacked {
+  width: 245px;
+  margin: 3px 0 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.brand-tagline-stacked > span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.site-footer {
+  padding-top: 10px;
+}
+
+.footer-block:first-child {
+  width: 230px;
+}
+
+.footer-logo-link {
+  display: block;
+  width: 230px;
+  max-width: 230px;
+  margin: 0 0 2px;
+}
+
+.footer-logo {
+  display: block;
+  width: 230px;
+  height: auto;
+  max-height: none;
+  margin: 0;
+  object-fit: contain;
+  object-position: left top;
+}
+
+.footer-service-wording {
+  display: flex;
+  width: 230px;
+  margin: 2px 0 4px;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.footer-service-wording > span {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-service-area {
+  width: 230px;
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .brand {
+    flex: 1 1 calc(100% - 84px);
+    max-width: calc(100% - 84px);
+    margin-top: 4px;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .brand-mark {
+    flex: 0 0 auto;
+    width: 210px;
+    height: auto;
+    min-height: 0;
+    margin: 0;
+    transform: none;
+  }
+
+  .brand-logo {
+    width: 210px;
+    height: auto;
+    margin: 0;
+    object-position: left top;
+  }
+
+  .brand-text {
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .brand-tagline-stacked {
+    width: 210px;
+    margin: 2px 0 0;
+    font-size: 1rem;
+  }
+
+  .footer-block:first-child {
+    width: 100%;
+  }
+
+  .footer-logo-link {
+    width: 210px;
+    max-width: 210px;
+    margin: 0 auto 2px;
+  }
+
+  .footer-logo {
+    width: 210px;
+    height: auto;
+    margin: 0 auto;
+    object-position: center top;
+  }
+
+  .footer-service-wording {
+    width: 210px;
+    margin: 2px auto 4px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-service-area {
+    width: 210px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
