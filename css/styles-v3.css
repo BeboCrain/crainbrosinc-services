@@ -411,3 +411,352 @@ a:hover{ text-decoration:underline; }
     object-fit: contain !important;
   }
 }
+/* CBI transparent logo integration */
+.header-inner {
+  min-height: 112px;
+  padding: 10px 0;
+}
+
+.brand {
+  flex: 0 1 220px;
+  min-width: 0;
+}
+
+.brand-mark {
+  display: block;
+  width: min(220px, 100%);
+  height: 92px;
+  margin: 0;
+}
+
+.brand-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.footer-logo-link {
+  display: inline-block;
+  max-width: 230px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 120px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+@media (max-width: 760px) {
+  .header-inner {
+    min-height: 84px;
+    padding: 8px 0;
+  }
+
+  .brand {
+    flex-basis: 164px;
+  }
+
+  .brand-mark {
+    width: 164px;
+    height: 68px;
+  }
+
+  .footer-logo-link {
+    max-width: 210px;
+  }
+}
+
+/* CBI logo layout v2: larger logo with retained company text */
+.header-inner {
+  min-height: 156px;
+  padding: 12px 0;
+}
+
+.brand {
+  flex: 0 1 500px;
+  min-width: 0;
+  gap: 18px;
+}
+
+.brand-mark {
+  flex: 0 0 280px;
+  width: 280px;
+  height: 132px;
+  margin: 0;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+}
+
+.brand-name {
+  display: block;
+  font-size: 1.18rem;
+}
+
+.brand-tagline {
+  display: block;
+  margin-top: 4px;
+  line-height: 1.3;
+}
+
+@media (max-width: 1000px) {
+  .header-inner {
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    flex-basis: 430px;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .header-inner {
+    min-height: 150px;
+    padding: 8px 0;
+    align-items: flex-start;
+  }
+
+  .brand {
+    flex: 1 1 calc(100% - 84px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .brand-mark {
+    flex-basis: auto;
+    width: 210px;
+    height: 98px;
+  }
+
+  .brand-name {
+    font-size: 1rem;
+  }
+
+  .brand-tagline {
+    margin-top: 1px;
+    font-size: .76rem;
+  }
+
+  .nav-toggle {
+    margin-top: 24px;
+  }
+
+  .nav.open {
+    width: 100%;
+  }
+}
+/* CBI brand alignment v3 */
+.brand {
+  align-items: center;
+}
+
+.brand-mark {
+  transform: translateY(-12px);
+}
+
+.brand-text {
+  justify-content: center;
+  align-self: center;
+}
+
+.brand-tagline {
+  white-space: nowrap;
+}
+
+@media (max-width: 1000px) {
+  .brand-tagline {
+    white-space: normal;
+  }
+}
+
+@media (max-width: 760px) {
+  .brand-mark {
+    transform: translateY(-8px);
+  }
+
+  .brand-text {
+    align-self: flex-start;
+  }
+}
+
+/* CBI desktop header fit v4 */
+.header-inner {
+  gap: 12px;
+}
+
+.brand {
+  flex: 0 0 452px;
+  max-width: 452px;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.brand-mark {
+  flex: 0 0 245px;
+  width: 245px;
+  height: 126px;
+}
+
+.brand-text {
+  flex: 0 0 197px;
+  width: 197px;
+  min-width: 0;
+  align-items: flex-start;
+}
+
+.brand-tagline-stacked {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  white-space: nowrap;
+  line-height: 1.25;
+}
+
+.brand-tagline-stacked > span {
+  display: block;
+}
+
+.nav {
+  margin-left: auto;
+  gap: 8px;
+}
+
+.nav-link {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+@media (max-width: 1180px) {
+  .header-inner {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    width: 100%;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 760px) {
+  .brand {
+    flex: 1 1 calc(100% - 84px);
+    max-width: calc(100% - 84px);
+  }
+
+  .brand-mark {
+    width: 210px;
+    height: 98px;
+  }
+
+  .brand-text {
+    flex: 0 1 auto;
+    width: auto;
+  }
+
+  .brand-tagline-stacked {
+    font-size: .76rem;
+    white-space: nowrap;
+  }
+}
+
+/* CBI header restore v5 */
+.header-inner {
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.brand {
+  flex: 0 0 430px;
+  max-width: 430px;
+  gap: 2px;
+  justify-content: flex-start;
+}
+
+.brand-mark {
+  flex: 0 0 245px;
+  width: 245px;
+  height: 126px;
+}
+
+.brand-text {
+  flex: 0 0 183px;
+  width: 183px;
+  margin-left: -10px;
+  align-items: flex-start;
+}
+
+.nav {
+  width: auto;
+  margin-left: auto;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 8px;
+}
+
+@media (max-width: 1180px) {
+  .header-inner {
+    flex-wrap: nowrap;
+  }
+
+  .nav {
+    width: auto;
+    margin-left: auto;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 760px) {
+  .header-inner {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .brand {
+    flex: 1 1 calc(100% - 84px);
+    max-width: calc(100% - 84px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .brand-mark {
+    width: 210px;
+    height: 98px;
+  }
+
+  .brand-text {
+    flex: 0 1 auto;
+    width: auto;
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .nav {
+    display: none;
+    width: auto;
+    margin-left: 0;
+  }
+
+  .nav.open {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+  }
+}
