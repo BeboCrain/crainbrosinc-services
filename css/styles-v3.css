@@ -394,3 +394,20 @@ a:hover{ text-decoration:underline; }
   .cbi-photo-hero img { height: 170px; }
   .cbi-photo-hero-portrait img { max-height: 260px; }
 }
+
+/* CBI custom bathroom shower page asset no-crop override */
+.tile-photo[src*="custom-bathroom-shower"] {
+  height: 520px !important;
+  max-height: 520px !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #f7f1ea;
+}
+
+@media (max-width: 760px) {
+  .tile-photo[src*="custom-bathroom-shower"] {
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+  }
+}
