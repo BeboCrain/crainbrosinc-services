@@ -961,3 +961,39 @@ a:hover{ text-decoration:underline; }
     text-align: center;
   }
 }
+/* CBI Building Inspection Diagnostics full-frame image override */
+.tile-photo[src*="service/inspection-diagnosis-design/"] {
+  height: 520px !important;
+  max-height: 520px !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #f7f1ea;
+}
+
+@media (max-width: 760px) {
+  .tile-photo[src*="service/inspection-diagnosis-design/"] {
+    height: auto !important;
+    max-height: none !important;
+    object-fit: contain !important;
+  }
+}
+
+/* CBI persistent fixed header v1 */
+body {
+  padding-top: 156px;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+@media (max-width: 760px) {
+  body {
+    padding-top: 150px;
+  }
+}
