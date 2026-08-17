@@ -1069,3 +1069,34 @@ body {
 .fire-photo-card figcaption strong { display: block; margin-bottom: 0.35rem; color: #ffffff; font-size: 1rem; line-height: 1.25; text-transform: capitalize; }
 .fire-photo-card figcaption span { display: block; color: #b6c2e2; font-size: 0.95rem; line-height: 1.5; }
 @media (max-width: 760px) { .fire-image-layout { grid-template-columns: 1fr; } .fire-photo-card img { max-height: none; } }
+
+/* Foundation local-review orange presentation */
+main h1,
+main h2 {
+  color: #FFFFFF;
+}
+.foundation-section-cta {
+  margin: 1.75rem 0 0;
+  text-align: center;
+}
+.foundation-orange-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 270px;
+  padding: 0.85rem 1.25rem;
+  border: 1px solid #EC6017;
+  border-radius: 999px;
+  background: #EC6017;
+  color: #FFFFFF !important;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+.foundation-orange-cta:hover,
+.foundation-orange-cta:focus {
+  background: #c94c0e;
+  border-color: #c94c0e;
+  color: #FFFFFF !important;
+}
