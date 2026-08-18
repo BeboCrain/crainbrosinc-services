@@ -1100,3 +1100,13 @@ main h2 {
   border-color: #c94c0e;
   color: #FFFFFF !important;
 }
+
+/* CBI Foundation page-family full-frame photo standard */
+.tile-photo[src*="service/foundation-drainage-waterproofing/"] {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: center center;
+  background: #0b1220;
+}
