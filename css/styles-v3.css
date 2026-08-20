@@ -1110,3 +1110,64 @@ main h2 {
   object-position: center center;
   background: #0b1220;
 }
+/* CBI homepage property-life-cycle portal presentation v1 */
+.homepage-full-frame-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: center center;
+  background: #0b1220;
+}
+
+.homepage-portal-button,
+.homepage-orange-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 270px;
+  padding: 0.85rem 1.25rem;
+  border: 1px solid #EC6017;
+  border-radius: 999px;
+  background: #EC6017;
+  color: #FFFFFF !important;
+  font-weight: 800;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.homepage-portal-button {
+  width: 100%;
+  min-width: 0;
+  margin-top: auto;
+}
+
+.homepage-portal-button:hover,
+.homepage-portal-button:focus,
+.homepage-orange-cta:hover,
+.homepage-orange-cta:focus {
+  background: #c94c0e;
+  border-color: #c94c0e;
+  color: #FFFFFF !important;
+}
+
+@media (max-width: 760px) {
+  .homepage-portal-button,
+  .homepage-orange-cta {
+    width: 100%;
+    min-width: 0;
+  }
+}
+/* CBI homepage linked service phrases */
+.homepage-service-list a.text-link {
+  color: #EC6017;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.homepage-service-list a.text-link:hover,
+.homepage-service-list a.text-link:focus {
+  color: #c94c0e;
+}
