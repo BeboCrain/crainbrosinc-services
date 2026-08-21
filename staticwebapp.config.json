@@ -1,1 +1,104 @@
-{}
+{
+  "routes": [
+    {
+      "route": "/areas/bay-ar-72411.html",
+      "redirect": "/areas/bay-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/blytheville-ar-72316.html",
+      "redirect": "/areas/blytheville-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/bono-ar-72416.html",
+      "redirect": "/areas/bono-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/brookland-ar-72417.html",
+      "redirect": "/areas/brookland-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/caraway-ar-72419.html",
+      "redirect": "/areas/caraway-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/gosnell-ar-72315.html",
+      "redirect": "/areas/gosnell-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/gosnell-ar-72319.html",
+      "redirect": "/areas/gosnell-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/harrisburg-ar-72432.html",
+      "redirect": "/areas/harrisburg-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/jonesboro-ar-72401.html",
+      "redirect": "/areas/jonesboro-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/jonesboro-ar-72402.html",
+      "redirect": "/areas/jonesboro-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/jonesboro-ar-72403.html",
+      "redirect": "/areas/jonesboro-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/jonesboro-ar-72404.html",
+      "redirect": "/areas/jonesboro-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/jonesboro-ar-72405.html",
+      "redirect": "/areas/jonesboro-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/lake-city-ar-72437.html",
+      "redirect": "/areas/lake-city-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/monette-ar-72447.html",
+      "redirect": "/areas/monette-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/newport-ar-72112.html",
+      "redirect": "/areas/newport-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/paragould-ar-72450.html",
+      "redirect": "/areas/paragould-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/paragould-ar-72451.html",
+      "redirect": "/areas/paragould-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/trumann-ar-72472.html",
+      "redirect": "/areas/trumann-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/areas/williams-baptist-college-ar-72476.html",
+      "redirect": "/areas/walnut-ridge-ar.html",
+      "statusCode": 301
+    }
+  ]
+}
