@@ -15,3 +15,22 @@ if (toggle && nav) {
     toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
   });
 }
+
+// Meta Contact event for clickable telephone links
+document.addEventListener("click", function (event) {
+  const clickedElement = event.target;
+
+  if (!(clickedElement instanceof Element)) {
+    return;
+  }
+
+  const telephoneLink = clickedElement.closest('a[href^="tel:"]');
+
+  if (!telephoneLink) {
+    return;
+  }
+
+  if (typeof fbq === "function") {
+    fbq('track', 'Contact');
+  }
+});
