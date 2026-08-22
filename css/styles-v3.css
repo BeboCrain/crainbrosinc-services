@@ -1181,3 +1181,13 @@ main h2 {
   object-position: center center;
   background: #0b1220;
 }
+/* CBI Property Damage and Building Restoration original-aspect-ratio photo standard */
+.tile-photo[src*="service/water-damage/"],
+.tile-photo[src*="service/fire-damage/"] {
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center;
+  background: #0b1220;
+}
