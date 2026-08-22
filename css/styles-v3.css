@@ -1171,3 +1171,13 @@ main h2 {
 .homepage-service-list a.text-link:focus {
   color: #c94c0e;
 }
+
+/* CBI Storm Damage original-aspect-ratio photo standard */
+.tile-photo[src*="service/storm-damage/"] {
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center;
+  background: #0b1220;
+}
