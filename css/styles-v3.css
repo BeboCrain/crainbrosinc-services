@@ -1191,3 +1191,13 @@ main h2 {
   object-position: center center;
   background: #0b1220;
 }
+
+/* CBI Mold Damage original-aspect-ratio photo standard */
+.tile-photo[src*="service/mold-damage/"] {
+  width: 100%;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center center;
+  background: #0b1220;
+}
