@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://services.crainbrosinc.com/</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/areas/bay-ar.html</loc>
@@ -161,12 +161,24 @@
     <lastmod>2026-09-02</lastmod>
   </url>
   <url>
+    <loc>https://services.crainbrosinc.com/pages/guide-hvac-air-quality.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://services.crainbrosinc.com/pages/guide-stop-leaks.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://services.crainbrosinc.com/pages/guide-windows-doors-seals.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
     <loc>https://services.crainbrosinc.com/pages/gutters.html</loc>
     <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/hvac.html</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/inspection-diagnosis-design.html</loc>
@@ -178,7 +190,7 @@
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/leak-detection.html</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/masonry.html</loc>
@@ -194,7 +206,15 @@
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/plumbing.html</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://services.crainbrosinc.com/pages/property-maintenance-guides.html</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://services.crainbrosinc.com/pages/property-owner-resources.html</loc>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/remodeling.html</loc>
@@ -226,7 +246,7 @@
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/water-damage.html</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/waterproofing.html</loc>
@@ -234,6 +254,6 @@
   </url>
   <url>
     <loc>https://services.crainbrosinc.com/pages/windows-doors.html</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
 </urlset>
