@@ -1208,3 +1208,40 @@ main h2 {
 .inspection-page a.text-link,.inspection-page p a:not(.inspection-orange-cta){color:#EC6017;font-weight:700;text-decoration:none}.inspection-page a.text-link:hover,.inspection-page a.text-link:focus,.inspection-page p a:not(.inspection-orange-cta):hover,.inspection-page p a:not(.inspection-orange-cta):focus{color:#c94c0e;text-decoration:underline;text-underline-offset:3px}.inspection-orange-cta{display:inline-flex;align-items:center;justify-content:center;min-width:270px;padding:.85rem 1.25rem;border:1px solid #EC6017;border-radius:999px;background:#EC6017;color:#FFFFFF!important;font-weight:800;line-height:1.2;text-align:center;text-decoration:none}.inspection-orange-cta:hover,.inspection-orange-cta:focus{background:#c94c0e;border-color:#c94c0e;color:#FFFFFF!important}.inspection-page .hero-actions{display:flex;flex-wrap:wrap;gap:12px}@media(max-width:760px){.inspection-orange-cta{width:100%;min-width:0}}
 /* CBI Property Damage Restoration orange links and pill actions */
 .property-restoration-page a.text-link,.property-restoration-page p a:not(.foundation-orange-cta){color:#EC6017;font-weight:700;text-decoration:none}.property-restoration-page a.text-link:hover,.property-restoration-page a.text-link:focus,.property-restoration-page p a:not(.foundation-orange-cta):hover,.property-restoration-page p a:not(.foundation-orange-cta):focus{color:#c94c0e;text-decoration:underline;text-underline-offset:3px}.property-restoration-page .hero-actions{display:flex;flex-wrap:wrap;gap:12px}@media(max-width:760px){.property-restoration-page .foundation-orange-cta{width:100%;min-width:0}}
+
+
+/* PAGE-WATER-01 preview-only link presentation */
+.water-damage-page a.text-link,
+.water-damage-page a.external-link,
+.water-damage-page p a:not(.foundation-orange-cta),
+.water-damage-page span a:not(.foundation-orange-cta),
+.water-damage-page article a:not(.foundation-orange-cta) {
+    color: #EC6017 !important;
+    font-weight: 700;
+    text-decoration: none;
+}
+.water-damage-page a.text-link:hover,
+.water-damage-page a.text-link:focus,
+.water-damage-page a.external-link:hover,
+.water-damage-page a.external-link:focus,
+.water-damage-page p a:not(.foundation-orange-cta):hover,
+.water-damage-page p a:not(.foundation-orange-cta):focus,
+.water-damage-page span a:not(.foundation-orange-cta):hover,
+.water-damage-page span a:not(.foundation-orange-cta):focus,
+.water-damage-page article a:not(.foundation-orange-cta):hover,
+.water-damage-page article a:not(.foundation-orange-cta):focus {
+    color: #C94C0E !important;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.water-damage-page .hero-actions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1.5rem auto 0;
+    text-align: center;
+}
+.water-damage-page .foundation-orange-cta {
+    margin-left: auto;
+    margin-right: auto;
+}
