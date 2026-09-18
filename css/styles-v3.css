@@ -1253,14 +1253,12 @@ main h2 {
 .remodeling-page .text-link:visited {
   color: #EC6017;
   font-weight: 700;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  text-decoration: none;
 }
 .remodeling-page .text-link:hover,
 .remodeling-page .text-link:focus-visible {
   color: #B9430B;
-  text-decoration-thickness: 2px;
+  text-decoration: none;
 }
 .remodeling-page .text-link:focus-visible {
   outline: 3px solid #EC6017;
