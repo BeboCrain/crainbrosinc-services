@@ -1328,3 +1328,22 @@ main h2 {
 .custom-kitchens-cta-section p{max-width:850px;margin-left:auto;margin-right:auto}
 @media(max-width:900px){.custom-kitchens-hero-grid,.custom-kitchens-gallery-three{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.custom-kitchens-hero-grid,.custom-kitchens-gallery-two,.custom-kitchens-gallery-three{grid-template-columns:1fr}.custom-kitchens-feature-figure{margin-top:.5rem}}
+/* CBI Windows and Doors production page scope */
+.windows-doors-page .text-link,.windows-doors-page .text-link:visited{color:#EC6017;font-weight:700;text-decoration:none}
+.windows-doors-page .text-link:hover,.windows-doors-page .text-link:focus-visible{color:#c94c0e;text-decoration:none}
+.windows-doors-page .text-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.windows-doors-page .foundation-orange-cta,.windows-doors-page .foundation-orange-cta:visited{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border:2px solid #EC6017;border-radius:999px;background:#EC6017;color:#FFFFFF!important;font-weight:800;line-height:1.25;text-align:center;text-decoration:none;box-shadow:0 8px 20px rgba(236,96,23,.20);transition:background-color .2s ease,border-color .2s ease,transform .2s ease}
+.windows-doors-page .foundation-orange-cta:hover{background:#c94c0e;border-color:#c94c0e;color:#FFFFFF!important;transform:translateY(-1px);text-decoration:none}
+.windows-doors-page .foundation-orange-cta:focus-visible{background:#c94c0e;border-color:#FFFFFF;outline:3px solid #EC6017;outline-offset:3px}
+.windows-doors-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:2rem;align-items:center}
+.windows-doors-feature-figure,.windows-doors-photo-card{margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22)}
+.windows-doors-hero-photo,.windows-doors-photo{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;background:#0B1220}
+.windows-doors-feature-figure figcaption,.windows-doors-photo-card figcaption{padding:.85rem 1rem 1rem;color:#d8e0f3;font-size:.92rem;line-height:1.5}
+.windows-doors-gallery{display:grid;gap:1.25rem;margin-top:1.5rem;align-items:stretch}
+.windows-doors-gallery-two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.windows-doors-gallery-three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.windows-doors-photo-card{display:flex;flex-direction:column}.windows-doors-photo-card figcaption{flex:1}
+.windows-doors-single-photo{max-width:900px;margin-top:1.5rem}
+.windows-doors-cta-section{text-align:center}.windows-doors-cta-section p{max-width:850px;margin-left:auto;margin-right:auto}
+@media(max-width:900px){.windows-doors-hero-grid,.windows-doors-gallery-three{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.windows-doors-hero-grid,.windows-doors-gallery-two,.windows-doors-gallery-three{grid-template-columns:1fr}.windows-doors-feature-figure{margin-top:.5rem}.windows-doors-page .foundation-orange-cta{width:100%;min-width:0}}
