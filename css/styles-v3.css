@@ -1371,3 +1371,20 @@ main h2 {
 .flooring-cta-section p { max-width:850px; margin-left:auto; margin-right:auto; }
 @media (max-width:900px) { .flooring-hero-grid,.flooring-gallery { grid-template-columns:1fr 1fr; } }
 @media (max-width:680px) { .flooring-hero-grid,.flooring-gallery { grid-template-columns:1fr; } .flooring-page .foundation-orange-cta { width:100%; } }
+
+/* CBI Foundation Repair production preview scope */
+.foundation-repair-page .text-link,
+.foundation-repair-page .text-link:visited { color:#EC6017 !important; font-weight:700; text-decoration:none; }
+.foundation-repair-page .text-link:hover,
+.foundation-repair-page .text-link:focus-visible { color:#c94c0e !important; text-decoration:none; }
+.foundation-repair-page .text-link:focus-visible { outline:3px solid #EC6017; outline-offset:3px; }
+.foundation-repair-page .foundation-orange-cta,
+.foundation-repair-page .foundation-orange-cta:visited { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:12px 22px; border:2px solid #EC6017; border-radius:999px; background:#EC6017; color:#FFFFFF !important; font-weight:800; line-height:1.25; text-align:center; text-decoration:none; box-shadow:0 8px 20px rgba(236,96,23,.20); }
+.foundation-repair-page .foundation-orange-cta:hover { background:#c94c0e; border-color:#c94c0e; color:#FFFFFF !important; }
+.foundation-repair-page .foundation-orange-cta:focus-visible { outline:3px solid #FFFFFF; outline-offset:3px; }
+.foundation-repair-hero-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,.9fr); gap:2rem; align-items:center; }
+.foundation-repair-feature-figure { margin:0; overflow:hidden; border:1px solid var(--border); border-radius:18px; background:#0B1220; box-shadow:0 14px 30px rgba(0,0,0,.22); }
+.foundation-repair-hero-photo { display:block; width:100%; height:auto; aspect-ratio:3/2; object-fit:cover; object-position:center; background:#0B1220; }
+.foundation-repair-feature-figure figcaption { padding:.85rem 1rem 1rem; color:#d8e0f3; font-size:.92rem; line-height:1.5; }
+@media (max-width:900px) { .foundation-repair-hero-grid { grid-template-columns:1fr 1fr; } }
+@media (max-width:680px) { .foundation-repair-hero-grid { grid-template-columns:1fr; } .foundation-repair-feature-figure { margin-top:.5rem; } .foundation-repair-page .foundation-orange-cta { width:100%; min-width:0; } }
