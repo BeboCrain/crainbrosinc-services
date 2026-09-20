@@ -1347,3 +1347,27 @@ main h2 {
 .windows-doors-cta-section{text-align:center}.windows-doors-cta-section p{max-width:850px;margin-left:auto;margin-right:auto}
 @media(max-width:900px){.windows-doors-hero-grid,.windows-doors-gallery-three{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.windows-doors-hero-grid,.windows-doors-gallery-two,.windows-doors-gallery-three{grid-template-columns:1fr}.windows-doors-feature-figure{margin-top:.5rem}.windows-doors-page .foundation-orange-cta{width:100%;min-width:0}}
+
+/* Flooring V6 canonical page scope */
+.flooring-page .text-link,
+.flooring-page .text-link:visited { color:#EC6017; font-weight:700; text-decoration:none; }
+.flooring-page .text-link:hover,
+.flooring-page .text-link:focus-visible { color:#c94c0e; text-decoration:none; }
+.flooring-page .foundation-orange-cta,
+.flooring-page .foundation-orange-cta:visited { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:12px 22px; border:2px solid #EC6017; border-radius:999px; background:#EC6017; color:#FFFFFF !important; font-weight:800; text-align:center; text-decoration:none; box-shadow:0 8px 20px rgba(236,96,23,0.20); }
+.flooring-page .foundation-orange-cta:hover { background:#c94c0e; border-color:#c94c0e; color:#FFFFFF !important; }
+.flooring-hero-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(320px,0.9fr); gap:2rem; align-items:center; }
+.flooring-feature-figure,
+.flooring-photo-card { margin:0; overflow:hidden; border:1px solid var(--border); border-radius:18px; background:#0B1220; box-shadow:0 14px 30px rgba(0,0,0,0.22); }
+.flooring-hero-photo,
+.flooring-photo { display:block; width:100%; height:auto; aspect-ratio:3 / 2; object-fit:cover; background:#0B1220; }
+.flooring-feature-figure figcaption,
+.flooring-photo-card figcaption { padding:0.85rem 1rem 1rem; color:#d8e0f3; font-size:0.92rem; line-height:1.5; }
+.flooring-gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.25rem; margin-top:1.5rem; align-items:stretch; }
+.flooring-photo-card { display:flex; flex-direction:column; }
+.flooring-photo-card figcaption { flex:1; }
+.flooring-single-photo { max-width:860px; margin-top:1.5rem; }
+.flooring-cta-section { text-align:center; }
+.flooring-cta-section p { max-width:850px; margin-left:auto; margin-right:auto; }
+@media (max-width:900px) { .flooring-hero-grid,.flooring-gallery { grid-template-columns:1fr 1fr; } }
+@media (max-width:680px) { .flooring-hero-grid,.flooring-gallery { grid-template-columns:1fr; } .flooring-page .foundation-orange-cta { width:100%; } }
