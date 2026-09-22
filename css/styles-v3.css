@@ -258,25 +258,6 @@ a:hover{ text-decoration:underline; }
   .footer-inner{ grid-template-columns: 1fr; }
 }
 
-/* Photo Grid (2-per-row) */
-.photo-grid{
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin: 12px 0 16px;
-  width: 100%;
-}
-
-.photo-grid .photo{
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 12px;
-  border: 1px solid var(--border);
-  background: rgba(255,255,255,.03);
-  max-height: 320px;
-  object-fit: cover;
-}
 
 .tile-photo{
   width: 100%;
@@ -321,12 +302,6 @@ a:hover{ text-decoration:underline; }
 .cbi-photo-gallery {
   margin-top: 2rem;
 }
-.cbi-photo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-top: 1rem;
-}
 .cbi-photo-item {
   margin: 0;
 }
@@ -338,10 +313,8 @@ a:hover{ text-decoration:underline; }
   border-radius: 6px;
 }
 @media (max-width: 900px) {
-  .cbi-photo-grid { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 600px) {
-  .cbi-photo-grid { grid-template-columns: 1fr; }
   .cbi-photo-hero img { max-height: 260px; }
 }
 
@@ -369,12 +342,6 @@ a:hover{ text-decoration:underline; }
 .cbi-photo-gallery {
   margin-top: 2rem;
 }
-.cbi-photo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  margin-top: 1rem;
-}
 .cbi-photo-item {
   margin: 0;
 }
@@ -386,11 +353,9 @@ a:hover{ text-decoration:underline; }
   border-radius: 6px;
 }
 @media (max-width: 900px) {
-  .cbi-photo-grid { grid-template-columns: repeat(2, 1fr); }
   .cbi-photo-hero img { height: 210px; }
 }
 @media (max-width: 600px) {
-  .cbi-photo-grid { grid-template-columns: 1fr; }
   .cbi-photo-hero img { height: 170px; }
   .cbi-photo-hero-portrait img { max-height: 260px; }
 }
@@ -1388,3 +1353,16 @@ main h2 {
 .foundation-repair-feature-figure figcaption { padding:.85rem 1rem 1rem; color:#d8e0f3; font-size:.92rem; line-height:1.5; }
 @media (max-width:900px) { .foundation-repair-hero-grid { grid-template-columns:1fr 1fr; } }
 @media (max-width:680px) { .foundation-repair-hero-grid { grid-template-columns:1fr; } .foundation-repair-feature-figure { margin-top:.5rem; } .foundation-repair-page .foundation-orange-cta { width:100%; min-width:0; } }
+/* CBI Custom Bathrooms preview scope 2026-09-22 */
+.custom-bathrooms-page .custom-bathrooms-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:2rem;align-items:center}
+.custom-bathrooms-page .custom-bathrooms-hero-photo,.custom-bathrooms-page .custom-bathrooms-photo{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center;background:#0B1220;border-radius:12px;border:1px solid var(--border)}
+.custom-bathrooms-page .custom-bathrooms-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.custom-bathrooms-page .custom-bathrooms-feature-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:2rem;align-items:center}
+.custom-bathrooms-page .text-link,.custom-bathrooms-page .text-link:visited,.custom-bathrooms-page .external-link,.custom-bathrooms-page .external-link:visited,.custom-bathrooms-page p a:not(.foundation-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.custom-bathrooms-page .text-link:hover,.custom-bathrooms-page .external-link:hover,.custom-bathrooms-page p a:not(.foundation-orange-cta):hover{text-decoration:underline}
+.custom-bathrooms-page .text-link:focus-visible,.custom-bathrooms-page .external-link:focus-visible,.custom-bathrooms-page p a:not(.foundation-orange-cta):focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.custom-bathrooms-page .foundation-orange-cta,.custom-bathrooms-page .foundation-orange-cta:visited{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border:2px solid #EC6017;border-radius:999px;background:#EC6017;color:#FFFFFF!important;font-weight:800;line-height:1.25;text-align:center;text-decoration:none;box-shadow:0 8px 20px rgba(236,96,23,.20)}
+.custom-bathrooms-page .foundation-orange-cta:focus-visible{outline:3px solid #FFFFFF;outline-offset:3px}
+.custom-bathrooms-page .custom-bathrooms-final-cta{text-align:center}
+@media (max-width:900px){.custom-bathrooms-page .custom-bathrooms-hero-grid,.custom-bathrooms-page .custom-bathrooms-feature-grid{grid-template-columns:1fr}.custom-bathrooms-page .custom-bathrooms-hero-copy{order:1}.custom-bathrooms-page .custom-bathrooms-hero-photo{order:2}.custom-bathrooms-page .custom-bathrooms-gallery{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.custom-bathrooms-page .custom-bathrooms-gallery{grid-template-columns:1fr}.custom-bathrooms-page .foundation-orange-cta{width:100%;min-width:0}.custom-bathrooms-page .hero{padding-top:34px}}
