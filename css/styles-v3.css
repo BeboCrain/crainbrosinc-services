@@ -1366,3 +1366,25 @@ main h2 {
 .custom-bathrooms-page .custom-bathrooms-final-cta{text-align:center}
 @media (max-width:900px){.custom-bathrooms-page .custom-bathrooms-hero-grid,.custom-bathrooms-page .custom-bathrooms-feature-grid{grid-template-columns:1fr}.custom-bathrooms-page .custom-bathrooms-hero-copy{order:1}.custom-bathrooms-page .custom-bathrooms-hero-photo{order:2}.custom-bathrooms-page .custom-bathrooms-gallery{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.custom-bathrooms-page .custom-bathrooms-gallery{grid-template-columns:1fr}.custom-bathrooms-page .foundation-orange-cta{width:100%;min-width:0}.custom-bathrooms-page .hero{padding-top:34px}}
+/* Drywall page scoped presentation */
+.drywall-page .drywall-hero-grid,.drywall-page .drywall-feature-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:2rem;align-items:center}
+.drywall-page .drywall-hero-photo,.drywall-page .drywall-photo{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;object-position:center;background:#0B1220;border-radius:12px;border:1px solid var(--border)}
+.drywall-page .drywall-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.drywall-page .text-link,.drywall-page .text-link:visited,.drywall-page .external-link,.drywall-page .external-link:visited,.drywall-page p a:not(.foundation-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.drywall-page .text-link:hover,.drywall-page .external-link:hover,.drywall-page p a:not(.foundation-orange-cta):hover{text-decoration:underline}
+.drywall-page .text-link:focus-visible,.drywall-page .external-link:focus-visible,.drywall-page p a:not(.foundation-orange-cta):focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.drywall-page .foundation-orange-cta,.drywall-page .foundation-orange-cta:visited{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border:2px solid #EC6017;border-radius:999px;background:#EC6017;color:#FFFFFF!important;font-weight:800;line-height:1.25;text-align:center;text-decoration:none;box-shadow:0 8px 20px rgba(236,96,23,.20)}
+.drywall-page .foundation-orange-cta:focus-visible{outline:3px solid #FFFFFF;outline-offset:3px}
+.drywall-page .drywall-final-cta{text-align:center}
+.drywall-page .resource-list{display:grid;gap:.8rem;padding-left:1.25rem}
+@media (max-width:900px){.drywall-page .drywall-hero-grid,.drywall-page .drywall-feature-grid{grid-template-columns:1fr}.drywall-page .drywall-hero-copy{order:1}.drywall-page .drywall-hero-photo{order:2}.drywall-page .drywall-gallery-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:640px){.drywall-page .drywall-gallery-grid{grid-template-columns:1fr}.drywall-page .foundation-orange-cta{width:100%;min-width:0}.drywall-page .hero{padding-top:34px}}
+
+/* Drywall full-image correction after first preview review */
+.drywall-page .drywall-photo-full{aspect-ratio:auto;object-fit:contain;max-height:760px;background:#0B1220}
+.drywall-page .drywall-photo-natural{aspect-ratio:auto;object-fit:contain;height:auto;background:#0B1220}
+.drywall-page .drywall-full-image-card{display:flex;flex-direction:column}
+/* Drywall full-image correction after timestamp crop approval */
+.drywall-page .drywall-photo-full{aspect-ratio:auto;object-fit:contain;max-height:760px;background:#0B1220}
+.drywall-page .drywall-photo-natural{aspect-ratio:auto;object-fit:contain;height:auto;background:#0B1220}
+.drywall-page .drywall-full-image-card{display:flex;flex-direction:column}
