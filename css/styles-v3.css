@@ -1392,3 +1392,20 @@ main h2 {
 /* Plumbing page approved styles START */
 .plumbing-page .text-link,.plumbing-page .external-link,.plumbing-page p a:not(.foundation-orange-cta),.plumbing-page figcaption a{color:#EC6017!important;font-weight:700;text-decoration:none}.plumbing-page .text-link:hover,.plumbing-page .external-link:hover,.plumbing-page p a:not(.foundation-orange-cta):hover,.plumbing-page figcaption a:hover{color:#c94c0e!important;text-decoration:underline;text-underline-offset:3px}.plumbing-page .text-link:focus-visible,.plumbing-page .external-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}.plumbing-hero-photo{display:block;width:100%;height:auto;margin:1.5rem 0 0;border-radius:14px;border:1px solid var(--border)}.plumbing-image-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;margin-top:1.5rem;align-items:start}.plumbing-image-layout-three{grid-template-columns:repeat(3,minmax(0,1fr))}.plumbing-image-layout figure,.plumbing-single-photo{margin:0;padding:1rem;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px}.plumbing-image-layout img,.plumbing-single-photo img{display:block;width:100%;height:auto;object-fit:contain;border-radius:10px}.plumbing-image-layout figcaption,.plumbing-single-photo figcaption{margin-top:.8rem;color:var(--muted);line-height:1.55}@media(max-width:900px){.plumbing-image-layout,.plumbing-image-layout-three{grid-template-columns:1fr}}
 /* Plumbing page approved styles END */
+
+/* Roofing page approved styles START */
+.roofing-page a:not(.foundation-orange-cta){color:#EC6017!important;text-decoration-color:#EC6017!important}
+.roofing-page a:not(.foundation-orange-cta):hover,.roofing-page a:not(.foundation-orange-cta):focus{color:#C94C0E!important;text-decoration-color:#C94C0E!important}
+.roofing-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:2rem;align-items:center}
+.roofing-feature-figure,.roofing-photo-card{margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22)}
+.roofing-hero-photo,.roofing-photo{display:block;width:100%;height:auto;aspect-ratio:3 / 2;object-fit:cover;object-position:center;background:#0B1220}
+.roofing-feature-figure figcaption,.roofing-photo-card figcaption{padding:.85rem 1rem 1rem;color:#d8e0f3;font-size:.92rem;line-height:1.5;background:#0B1220}
+.roofing-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;margin-top:1.5rem;align-items:stretch}
+.roofing-photo-card{display:flex;flex-direction:column;min-width:0}
+.roofing-photo-card img{display:block;width:100%;height:auto;max-height:min(640px,72vh);aspect-ratio:auto;object-fit:contain;object-position:center;background:#0B1220;margin:0 auto}
+.roofing-photo-card figcaption{flex:1}
+.roofing-photo-card figcaption span{display:block}
+.section .container > .roofing-photo-card{max-width:860px;margin:1.5rem auto 0}
+@media(max-width:900px){.roofing-hero-grid,.roofing-gallery{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.roofing-hero-grid,.roofing-gallery{grid-template-columns:1fr}.roofing-feature-figure{margin-top:.5rem}.roofing-page .foundation-orange-cta{width:100%;min-width:0}}
+/* Roofing page approved styles END */
