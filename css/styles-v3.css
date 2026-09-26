@@ -1409,3 +1409,28 @@ main h2 {
 @media(max-width:900px){.roofing-hero-grid,.roofing-gallery{grid-template-columns:1fr 1fr}}
 @media(max-width:680px){.roofing-hero-grid,.roofing-gallery{grid-template-columns:1fr}.roofing-feature-figure{margin-top:.5rem}.roofing-page .foundation-orange-cta{width:100%;min-width:0}}
 /* Roofing page approved styles END */
+
+/* Foundation parent page isolated review: no changes to other pages */
+.foundation-parent-page .text-link,.foundation-parent-page .external-link,.foundation-parent-page .text-link:visited,.foundation-parent-page .external-link:visited{color:#EC6017!important;font-weight:700;text-decoration:none}
+.foundation-parent-page .text-link:hover,.foundation-parent-page .external-link:hover{color:#c94c0e!important;text-decoration:underline;text-underline-offset:3px}
+.foundation-parent-page .text-link:focus-visible,.foundation-parent-page .external-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.foundation-parent-page .foundation-orange-cta,.foundation-parent-page .foundation-orange-cta:visited{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border:2px solid #EC6017;border-radius:999px;background:#EC6017;color:#fff!important;font-weight:800;line-height:1.25;text-align:center;text-decoration:none;box-shadow:0 8px 20px rgba(236,96,23,.20)}
+.foundation-parent-page .foundation-orange-cta:hover{background:#c94c0e;border-color:#c94c0e;color:#fff!important}
+.foundation-parent-page .foundation-orange-cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.foundation-parent-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:2rem;align-items:center}
+.foundation-parent-hero-figure{margin:0;min-width:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22)}
+.foundation-parent-hero-photo{display:block;width:100%;height:auto;max-height:min(700px,75vh);object-fit:contain;object-position:center;background:#0B1220}
+.foundation-parent-hero-figure figcaption{display:block;padding:.85rem 1rem 1rem;color:#d8e0f3;background:#0B1220;line-height:1.5}
+.foundation-parent-page .foundation-child-section{padding:3.25rem 0;border-top:4px solid #EC6017;background:rgba(236,96,23,.035)}
+.foundation-parent-page .foundation-child-section:nth-of-type(even){background:rgba(255,255,255,.045)}
+.foundation-parent-page .foundation-child-section h2{font-size:clamp(1.6rem,2.5vw,2.25rem);margin-bottom:1rem}
+.foundation-parent-page .foundation-support-section{padding:2.75rem 0;border-top:1px solid var(--border)}
+.foundation-parent-page .foundation-photo-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;margin-top:1.5rem;align-items:start}
+.foundation-parent-page .foundation-photo-card,.foundation-parent-page .foundation-drain-photo figure{min-width:0;margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220}
+.foundation-parent-page .foundation-photo-card img,.foundation-parent-page .foundation-drain-photo img{display:block;width:100%;height:auto;max-height:min(640px,72vh);object-fit:contain;object-position:center;background:#0B1220}
+.foundation-parent-page .foundation-photo-card figcaption,.foundation-parent-page .foundation-drain-photo figcaption{display:block;padding:.85rem 1rem 1rem;color:#d8e0f3;background:#0B1220;line-height:1.5}
+.foundation-parent-page .foundation-photo-card figcaption span,.foundation-parent-page .foundation-drain-photo figcaption span{display:block;color:#d8e0f3}
+.foundation-parent-page .foundation-drain-photo{max-width:600px}
+.foundation-parent-page .foundation-source-list li{margin:.65rem 0;line-height:1.55}
+@media(max-width:900px){.foundation-parent-hero-grid{grid-template-columns:1fr}}
+@media(max-width:680px){.foundation-parent-page .foundation-photo-layout{grid-template-columns:1fr}.foundation-parent-page .foundation-photo-card img,.foundation-parent-page .foundation-drain-photo img{max-height:none}.foundation-parent-page .foundation-orange-cta{width:100%;min-width:0}.foundation-parent-hero-photo{max-height:none}}
