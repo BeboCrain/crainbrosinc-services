@@ -1434,3 +1434,19 @@ main h2 {
 .foundation-parent-page .foundation-source-list li{margin:.65rem 0;line-height:1.55}
 @media(max-width:900px){.foundation-parent-hero-grid{grid-template-columns:1fr}}
 @media(max-width:680px){.foundation-parent-page .foundation-photo-layout{grid-template-columns:1fr}.foundation-parent-page .foundation-photo-card img,.foundation-parent-page .foundation-drain-photo img{max-height:none}.foundation-parent-page .foundation-orange-cta{width:100%;min-width:0}.foundation-parent-hero-photo{max-height:none}}
+/* CBI Building Inspection and Diagnostics parent responsive optimization START */
+.inspection-diagnostics-page .text-link,.inspection-diagnostics-page .external-link,.inspection-diagnostics-page p a:not(.inspection-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.inspection-diagnostics-page .text-link:hover,.inspection-diagnostics-page .external-link:hover,.inspection-diagnostics-page p a:not(.inspection-orange-cta):hover{color:#c94c0e!important;text-decoration:underline;text-underline-offset:3px}
+.inspection-diagnostics-page .text-link:focus-visible,.inspection-diagnostics-page .external-link:focus-visible,.inspection-diagnostics-page p a:not(.inspection-orange-cta):focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.inspection-diagnostics-page .inspection-feature-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:2rem;align-items:start}
+.inspection-diagnostics-page .inspection-feature-grid-reverse>div{order:2}.inspection-diagnostics-page .inspection-feature-grid-reverse>figure{order:1}
+.inspection-diagnostics-page .inspection-process-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.25rem;margin-top:1.5rem;align-items:start}
+.inspection-diagnostics-page .inspection-photo-card{min-width:0;margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22)}
+.inspection-diagnostics-page .inspection-photo{display:block;width:100%;height:auto;max-height:min(640px,72vh);object-fit:contain;object-position:center;background:#0B1220;margin:0 auto}
+.inspection-diagnostics-page .inspection-photo-card figcaption{display:block;padding:.85rem 1rem 1rem;color:#d8e0f3;background:#0B1220;line-height:1.5}
+.inspection-diagnostics-page .inspection-photo-card figcaption strong{display:block;color:#fff;margin-bottom:.35rem}
+.inspection-diagnostics-page .inspection-problem-section{padding:3.25rem 0;border-top:1px solid var(--border)}
+.inspection-diagnostics-page .inspection-final-cta{text-align:center}.inspection-diagnostics-page .inspection-final-cta p{max-width:900px;margin-left:auto;margin-right:auto}
+@media(max-width:900px){.inspection-diagnostics-page .inspection-feature-grid{grid-template-columns:1fr}.inspection-diagnostics-page .inspection-feature-grid-reverse>div,.inspection-diagnostics-page .inspection-feature-grid-reverse>figure{order:initial}}
+@media(max-width:680px){.inspection-diagnostics-page .inspection-process-grid{grid-template-columns:1fr}.inspection-diagnostics-page .inspection-photo{max-height:none}.inspection-diagnostics-page .inspection-orange-cta{width:100%;min-width:0}.inspection-diagnostics-page .hero{padding-top:34px}}
+/* CBI Building Inspection and Diagnostics parent responsive optimization END */
