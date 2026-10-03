@@ -1450,3 +1450,47 @@ main h2 {
 @media(max-width:900px){.inspection-diagnostics-page .inspection-feature-grid{grid-template-columns:1fr}.inspection-diagnostics-page .inspection-feature-grid-reverse>div,.inspection-diagnostics-page .inspection-feature-grid-reverse>figure{order:initial}}
 @media(max-width:680px){.inspection-diagnostics-page .inspection-process-grid{grid-template-columns:1fr}.inspection-diagnostics-page .inspection-photo{max-height:none}.inspection-diagnostics-page .inspection-orange-cta{width:100%;min-width:0}.inspection-diagnostics-page .hero{padding-top:34px}}
 /* CBI Building Inspection and Diagnostics parent responsive optimization END */
+
+/* CBI-STORM-DAMAGE-OPTIMIZATION-BEGIN */
+
+.storm-damage-page a.text-link,.storm-damage-page a.external-link{color:#EC6017!important;font-weight:700;text-decoration:none}.storm-damage-page a.text-link:hover,.storm-damage-page a.external-link:hover{text-decoration:underline;text-underline-offset:3px}
+.storm-damage-page .storm-damage-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(360px,450px);gap:2rem;align-items:start;width:100%;max-width:1180px;margin:0 auto;box-sizing:border-box}.storm-damage-page .storm-damage-hero-copy{min-width:0}.storm-damage-page .storm-damage-hero-figure{width:100%;max-width:450px;margin:0 auto;padding:1rem;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;box-sizing:border-box}.storm-damage-page .storm-damage-hero-photo{display:block;width:100%;height:auto;border-radius:10px}.storm-damage-page .storm-damage-hero-figure figcaption{margin-top:.8rem;color:var(--muted);line-height:1.55}
+.storm-damage-page .grid-3{align-items:start}.storm-damage-page .tile{min-width:0}.storm-damage-page .tile:has(.storm-media-layout){grid-column:1/-1}.storm-media-layout{display:grid;grid-template-columns:repeat(2,minmax(0,520px));justify-content:center;gap:1.25rem;margin-top:1.25rem}.storm-media-layout:has(figure:only-child){grid-template-columns:minmax(0,680px)}.storm-media-layout-featured{grid-template-columns:minmax(0,760px)!important}.storm-photo-card{margin:0;padding:1rem;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-sizing:border-box}.storm-photo-card img{display:block;width:100%;height:auto;border-radius:10px}.storm-photo-card figcaption{margin-top:.8rem;color:var(--muted);line-height:1.55}
+@media(max-width:980px){.storm-damage-page .storm-damage-hero-grid{grid-template-columns:1fr;max-width:760px;padding:0 1.25rem}.storm-damage-page .storm-damage-hero-copy,.storm-damage-page .storm-damage-hero-figure{width:100%;max-width:100%;min-width:0;box-sizing:border-box}.storm-damage-page .storm-damage-hero-copy{order:1}.storm-damage-page .storm-damage-hero-figure{order:2}.storm-media-layout,.storm-media-layout:has(figure:only-child),.storm-media-layout-featured{grid-template-columns:repeat(2,minmax(0,1fr))!important;max-width:760px;margin-left:auto;margin-right:auto}}
+@media(max-width:640px){.storm-damage-page .storm-damage-hero-grid{padding:0 1rem}.storm-media-layout,.storm-media-layout:has(figure:only-child),.storm-media-layout-featured{grid-template-columns:1fr!important;max-width:560px}.storm-photo-card{width:100%;max-width:100%}.storm-damage-page .foundation-orange-cta{width:100%;min-width:0}}
+/* storm-desktop-photo-bounds */
+@media(min-width:981px){
+.storm-damage-page .storm-photo-card img{display:block;width:auto!important;max-width:100%!important;height:auto!important;max-height:520px!important;margin-left:auto!important;margin-right:auto!important;border-radius:10px!important}
+.storm-damage-page .storm-photo-featured img{max-height:460px!important}
+.storm-damage-page .storm-media-layout{align-items:start!important}
+.storm-damage-page .storm-photo-card{align-self:start!important}
+}
+@media(max-width:980px){
+.storm-damage-page .storm-photo-card img{display:block;width:100%!important;max-width:100%!important;height:auto!important;max-height:none!important;margin-left:auto!important;margin-right:auto!important}
+}/* storm-compact-desktop-authority */
+@media(min-width:981px){
+.storm-damage-page .grid-3{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:1.25rem!important;align-items:start!important}
+.storm-damage-page .grid-3>.tile{grid-column:span 1!important;min-width:0!important;align-self:start!important}
+.storm-damage-page .grid-3>.tile:has(.storm-media-layout figure:nth-child(2)){grid-column:span 2!important}
+.storm-damage-page .grid-3>.tile:has(.storm-media-layout-featured){grid-column:span 2!important}
+.storm-damage-page .storm-media-layout{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:.85rem!important;margin-top:1rem!important;max-width:none!important}
+.storm-damage-page .storm-media-layout:has(figure:only-child){grid-template-columns:1fr!important;max-width:420px!important;margin-left:auto!important;margin-right:auto!important}
+.storm-damage-page .storm-media-layout-featured{grid-template-columns:1fr!important;max-width:560px!important;margin-left:auto!important;margin-right:auto!important}
+.storm-damage-page .storm-photo-card{padding:.75rem!important}
+.storm-damage-page .storm-photo-card img{display:block!important;width:100%!important;height:auto!important;max-height:360px!important;object-fit:contain!important;margin:0 auto!important}
+.storm-damage-page .storm-media-layout-featured img{max-height:380px!important}
+.storm-damage-page .storm-photo-card figcaption{font-size:.94rem!important;line-height:1.45!important;margin-top:.65rem!important}
+}
+@media(min-width:641px) and (max-width:980px){
+.storm-damage-page .grid-3{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.storm-damage-page .grid-3>.tile{grid-column:span 1!important}
+.storm-damage-page .grid-3>.tile:has(.storm-media-layout figure:nth-child(2)),.storm-damage-page .grid-3>.tile:has(.storm-media-layout-featured){grid-column:1/-1!important}
+.storm-damage-page .storm-media-layout{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media(max-width:640px){
+.storm-damage-page .grid-3{grid-template-columns:1fr!important}
+.storm-damage-page .grid-3>.tile{grid-column:1/-1!important}
+.storm-damage-page .storm-media-layout,.storm-damage-page .storm-media-layout:has(figure:only-child),.storm-damage-page .storm-media-layout-featured{grid-template-columns:1fr!important;max-width:100%!important}
+.storm-damage-page .storm-photo-card img{width:100%!important;height:auto!important;max-height:none!important;object-fit:initial!important}
+}
+/* CBI-STORM-DAMAGE-OPTIMIZATION-END */
