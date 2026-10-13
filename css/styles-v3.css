@@ -1526,3 +1526,15 @@ main h2 {
 @media(max-width:900px){.fire-damage-page .fire-media:has(figure:nth-child(3)){grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:760px){.fire-damage-page .fire-service-grid{grid-template-columns:1fr!important}.fire-damage-page .fire-service-grid>.fire-service-card:has(.fire-media figure:nth-child(2)){grid-column:auto!important}.fire-damage-page .fire-photo-card img{width:100%!important;max-height:none!important}}
 @media(max-width:560px){.fire-damage-page .fire-media,.fire-damage-page .fire-media:has(figure:only-child),.fire-damage-page .fire-media:has(figure:nth-child(3)){grid-template-columns:1fr!important}}
+
+/* Crawlspace Repairs & Encapsulation browser-preview scope */
+.crawlspace-page .text-link,.crawlspace-page .external-link,.crawlspace-page p a:not(.foundation-orange-cta),.crawlspace-page article a:not(.foundation-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.crawlspace-page .text-link:hover,.crawlspace-page .external-link:hover,.crawlspace-page p a:not(.foundation-orange-cta):hover,.crawlspace-page article a:not(.foundation-orange-cta):hover{text-decoration:underline;text-underline-offset:3px;color:#c94c0e!important}
+.crawlspace-page .text-link:focus-visible,.crawlspace-page .external-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.crawlspace-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.9fr);gap:2rem;align-items:center}
+.crawlspace-hero-figure{margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220}
+.crawlspace-hero-photo{display:block;width:100%;height:auto;max-height:640px;object-fit:contain;object-position:center;background:#0B1220}
+.crawlspace-hero-figure figcaption{padding:.85rem 1rem 1rem;color:var(--muted);line-height:1.5}
+@media(max-width:900px){.crawlspace-hero-grid{grid-template-columns:1fr}.crawlspace-hero-copy{order:1}.crawlspace-hero-figure{order:2}.crawlspace-hero-photo{max-height:none}.crawlspace-page .foundation-orange-cta{width:100%;min-width:0}}
+
+.foundation-photo-full{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center!important;background:#0b1220}
