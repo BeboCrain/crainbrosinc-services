@@ -7,7 +7,7 @@
     },
     {
       "route": "/our-services.html",
-      "redirect": "/services.html",
+      "redirect": "/pages/services.html",
       "statusCode": 301
     },
     {
