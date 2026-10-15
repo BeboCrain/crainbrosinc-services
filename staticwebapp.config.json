@@ -1,6 +1,114 @@
 {
   "routes": [
     {
+      "route": "/about-crain-bros-inc.html",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/our-services.html",
+      "redirect": "/services.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/news/areas/gosnell-ar-72319.html",
+      "redirect": "/areas/gosnell-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/news/areas/williams-baptist-college-ar-72476.html",
+      "redirect": "/areas/walnut-ridge-ar.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/news/index.html",
+      "statusCode": 410
+    },
+    {
+      "route": "/ads/*",
+      "statusCode": 410
+    },
+    {
+      "route": "/bay-ar-72411-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/blytheville-ar-72316-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/bono-ar-72416-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/brookland-ar-72417-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/caraway-ar-72419-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/gosnell-ar-72315-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/gosnell-ar-72319-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/harrisburg-ar-72432-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/jonesboro-ar-72401-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/jonesboro-ar-72402-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/jonesboro-ar-72403-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/jonesboro-ar-72404-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/jonesboro-ar-72405-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/lake-city-ar-72437-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/monette-ar-72447-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/newport-ar-72112-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/paragould-ar-72450-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/paragould-ar-72451-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/trumann-ar-72472-*",
+      "statusCode": 410
+    },
+    {
+      "route": "/williams-baptist-college-ar-72476-*",
+      "statusCode": 410
+    },
+    {
       "route": "/areas/bay-ar-72411.html",
       "redirect": "/areas/bay-ar.html",
       "statusCode": 301
