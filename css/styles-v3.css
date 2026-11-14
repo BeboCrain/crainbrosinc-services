@@ -1579,3 +1579,83 @@ main h2 {
   .water-heater-leak-hero-photo,.water-heater-leak-photo{max-height:none}
 }
 /* CBI PC-001 water-heater-leak preview scope END */
+
+/* CBI PC-002 dishwasher-leak preview scope START */
+.dishwasher-leak-page .text-link,
+.dishwasher-leak-page .text-link:visited,
+.dishwasher-leak-page .external-link,
+.dishwasher-leak-page .external-link:visited,
+.dishwasher-leak-page p a:not(.foundation-orange-cta),
+.dishwasher-leak-page article a:not(.foundation-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.dishwasher-leak-page .text-link:hover,
+.dishwasher-leak-page .external-link:hover,
+.dishwasher-leak-page p a:not(.foundation-orange-cta):hover,
+.dishwasher-leak-page article a:not(.foundation-orange-cta):hover{color:#c94c0e!important;text-decoration:underline;text-underline-offset:3px}
+.dishwasher-leak-page .text-link:focus-visible,
+.dishwasher-leak-page .external-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.dishwasher-leak-hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:2rem;align-items:center}
+.dishwasher-leak-hero-copy,.dishwasher-leak-section-copy{min-width:0}
+.dishwasher-leak-hero-figure,
+.dishwasher-leak-photo-card{min-width:0;margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22);justify-self:center;width:100%}
+.dishwasher-leak-hero-figure{max-width:500px}
+.dishwasher-leak-photo-card{max-width:520px}
+.dishwasher-leak-hero-photo{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;object-position:center;background:#0B1220}
+.dishwasher-leak-photo{display:block;width:100%;height:auto;max-height:340px;object-fit:contain;object-position:center;background:#0B1220;margin:0 auto}
+.dishwasher-leak-hero-figure figcaption,
+.dishwasher-leak-photo-card figcaption{display:block;padding:.75rem .9rem .9rem;color:#d8e0f3;background:#0B1220;line-height:1.45}
+.dishwasher-leak-hero-figure figcaption strong,
+.dishwasher-leak-photo-card figcaption strong{display:block;color:#fff;margin-bottom:.3rem}
+.dishwasher-leak-hero-figure figcaption span,
+.dishwasher-leak-photo-card figcaption span{display:block;color:#d8e0f3}
+.dishwasher-leak-section-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.72fr);gap:2rem;align-items:center}
+.dishwasher-leak-section-grid-reverse{grid-template-columns:minmax(260px,.72fr) minmax(0,1.55fr)}
+.dishwasher-leak-section-grid-reverse .dishwasher-leak-section-copy{order:2}
+.dishwasher-leak-section-grid-reverse .dishwasher-leak-photo-card{order:1}
+@media (max-width:800px){
+  .dishwasher-leak-hero-grid,.dishwasher-leak-section-grid,.dishwasher-leak-section-grid-reverse{grid-template-columns:1fr}
+  .dishwasher-leak-section-grid-reverse .dishwasher-leak-section-copy,.dishwasher-leak-section-grid-reverse .dishwasher-leak-photo-card{order:initial}
+  .dishwasher-leak-hero-figure{order:2;max-width:500px}
+  .dishwasher-leak-photo-card{max-width:520px}
+  .dishwasher-leak-page .foundation-orange-cta{width:100%;min-width:0}
+  .dishwasher-leak-hero-photo,.dishwasher-leak-photo{max-height:none}
+}
+/* CBI PC-002 dishwasher-leak preview scope END */
+
+/* CBI PC-002 approved inline cross-link presentation START */
+html body a.pc002-inline-cross-link,
+html body a.pc002-inline-cross-link:link,
+html body a.pc002-inline-cross-link:visited {
+  display: inline !important;
+  width: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  color: #EC6017 !important;
+  -webkit-text-fill-color: #EC6017 !important;
+  font-weight: 700 !important;
+  line-height: inherit !important;
+  text-align: inherit !important;
+  text-decoration: none !important;
+  transform: none !important;
+}
+html body a.pc002-inline-cross-link:hover,
+html body a.pc002-inline-cross-link:focus,
+html body a.pc002-inline-cross-link:focus-visible {
+  display: inline !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #C94C0E !important;
+  -webkit-text-fill-color: #C94C0E !important;
+  text-decoration: underline !important;
+  text-underline-offset: 3px !important;
+  transform: none !important;
+}
+/* CBI PC-002 approved inline cross-link presentation END */
