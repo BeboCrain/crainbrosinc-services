@@ -1621,6 +1621,51 @@ main h2 {
 }
 /* CBI PC-002 dishwasher-leak preview scope END */
 
+/* CBI PC-006 toilet-leak preview scope START */
+.toilet-leak-page .text-link,
+.toilet-leak-page .text-link:visited,
+.toilet-leak-page .external-link,
+.toilet-leak-page .external-link:visited,
+.toilet-leak-page p a:not(.foundation-orange-cta),
+.toilet-leak-page article a:not(.foundation-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.toilet-leak-page .text-link:hover,
+.toilet-leak-page .external-link:hover,
+.toilet-leak-page p a:not(.foundation-orange-cta):hover,
+.toilet-leak-page article a:not(.foundation-orange-cta):hover{color:#c94c0e!important;text-decoration:underline;text-underline-offset:3px}
+.toilet-leak-page .text-link:focus-visible,
+.toilet-leak-page .external-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.toilet-leak-hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:2rem;align-items:center}
+.toilet-leak-hero-copy,.toilet-leak-section-copy{min-width:0}
+.toilet-leak-hero-figure,
+.toilet-leak-photo-card{min-width:0;margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22);justify-self:center;width:100%}
+.toilet-leak-hero-figure{max-width:500px}
+.toilet-leak-photo-card{max-width:520px}
+.toilet-leak-hero-photo{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;object-position:center;background:#0B1220}
+.toilet-leak-photo{display:block;width:100%;height:auto;max-height:340px;object-fit:contain;object-position:center;background:#0B1220;margin:0 auto}
+.toilet-leak-hero-figure figcaption,
+.toilet-leak-photo-card figcaption{display:block;padding:.75rem .9rem .9rem;color:#d8e0f3;background:#0B1220;line-height:1.45}
+.toilet-leak-hero-figure figcaption strong,
+.toilet-leak-photo-card figcaption strong{display:block;color:#fff;margin-bottom:.3rem}
+.toilet-leak-hero-figure figcaption span,
+.toilet-leak-photo-card figcaption span{display:block;color:#d8e0f3}
+.toilet-leak-section-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.72fr);gap:2rem;align-items:center}
+.toilet-leak-section-grid-reverse{grid-template-columns:minmax(260px,.72fr) minmax(0,1.55fr)}
+.toilet-leak-section-grid-reverse .toilet-leak-section-copy{order:2}
+.toilet-leak-section-grid-reverse .toilet-leak-photo-card{order:1}
+.toilet-leak-section-grid-multi{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.72fr);gap:2rem;align-items:center}
+.toilet-leak-photo-stack{display:grid;gap:1.25rem;min-width:0;justify-items:center}
+.toilet-leak-section-grid-reverse .toilet-leak-photo-stack{order:1}
+@media (max-width:800px){
+  .toilet-leak-hero-grid,.toilet-leak-section-grid,.toilet-leak-section-grid-multi,.toilet-leak-section-grid-reverse{grid-template-columns:1fr}
+  .toilet-leak-section-grid-reverse .toilet-leak-section-copy,.toilet-leak-section-grid-reverse .toilet-leak-photo-card{order:initial}
+.toilet-leak-section-grid-reverse .toilet-leak-photo-stack{order:initial}
+  .toilet-leak-hero-figure{order:2;max-width:500px}
+  .toilet-leak-photo-card{max-width:520px}
+  .toilet-leak-page .foundation-orange-cta{width:100%;min-width:0}
+  .toilet-leak-hero-photo,.toilet-leak-photo{max-height:none}
+}
+/* CBI PC-006 toilet-leak preview scope END */
+
 /* CBI PC-002 approved inline cross-link presentation START */
 html body a.pc002-inline-cross-link,
 html body a.pc002-inline-cross-link:link,
