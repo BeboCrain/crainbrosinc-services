@@ -1909,3 +1909,44 @@ html body a.pc002-inline-cross-link:visited {
 .sink-leak-page a:not(.foundation-orange-cta):hover,
 .sink-leak-page a:not(.foundation-orange-cta):focus-visible{color:#7f2f00;text-decoration-thickness:3px}
 /* PC-005 production dependency candidate R21 END */
+/* CBI PC-008 bathtub-leak comparator-corrected scope START */
+.bathtub-leak-page .text-link,
+.bathtub-leak-page .text-link:visited,
+.bathtub-leak-page .external-link,
+.bathtub-leak-page .external-link:visited,
+.bathtub-leak-page p a:not(.foundation-orange-cta),
+.bathtub-leak-page article a:not(.foundation-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.bathtub-leak-page .text-link:hover,
+.bathtub-leak-page .external-link:hover,
+.bathtub-leak-page p a:not(.foundation-orange-cta):hover,
+.bathtub-leak-page article a:not(.foundation-orange-cta):hover{color:#c94c0e!important;text-decoration:underline;text-underline-offset:3px}
+.bathtub-leak-page .text-link:focus-visible,
+.bathtub-leak-page .external-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.bathtub-leak-hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:2rem;align-items:center}
+.bathtub-leak-hero-copy,.bathtub-leak-section-copy{min-width:0}
+.bathtub-leak-hero-figure,
+.bathtub-leak-photo-card{min-width:0;margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22);justify-self:center;width:100%}
+.bathtub-leak-hero-figure{max-width:500px}
+.bathtub-leak-photo-card{max-width:520px}
+.bathtub-leak-photo-stack{display:grid;gap:1.25rem;min-width:0;align-content:start}
+.bathtub-leak-hero-photo{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;object-position:center;background:#0B1220}
+.bathtub-leak-photo{display:block;width:100%;height:auto;max-height:340px;object-fit:contain;object-position:center;background:#0B1220;margin:0 auto}
+.bathtub-leak-hero-figure figcaption,
+.bathtub-leak-photo-card figcaption{display:block;padding:.75rem .9rem .9rem;color:#d8e0f3;background:#0B1220;line-height:1.45}
+.bathtub-leak-hero-figure figcaption strong,
+.bathtub-leak-photo-card figcaption strong{display:block;color:#fff;margin-bottom:.3rem}
+.bathtub-leak-hero-figure figcaption span,
+.bathtub-leak-photo-card figcaption span{display:block;color:#d8e0f3}
+.bathtub-leak-section-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.72fr);gap:2rem;align-items:center}
+.bathtub-leak-section-grid-reverse{grid-template-columns:minmax(260px,.72fr) minmax(0,1.55fr)}
+.bathtub-leak-section-grid-reverse .bathtub-leak-section-copy{order:2}
+.bathtub-leak-section-grid-reverse .bathtub-leak-photo-card{order:1}
+@media (max-width:800px){
+.bathtub-leak-hero-grid,.bathtub-leak-section-grid,.bathtub-leak-section-grid-reverse{grid-template-columns:1fr}
+.bathtub-leak-section-grid-reverse .bathtub-leak-section-copy,.bathtub-leak-section-grid-reverse .bathtub-leak-photo-card{order:initial}
+.bathtub-leak-hero-figure{order:2;max-width:500px}
+.bathtub-leak-photo-card{max-width:520px}
+.bathtub-leak-page .foundation-orange-cta{width:100%;min-width:0}
+.bathtub-leak-hero-photo,.bathtub-leak-photo{max-height:none}
+}
+/* CBI PC-008 bathtub-leak comparator-corrected scope END */
