@@ -2032,3 +2032,47 @@ html body a.pc002-inline-cross-link:visited {
 .drain-line-leak-hero-photo,.drain-line-leak-photo{max-height:none}
 }
 /* CBI PC-010 drain-line-leak comparator-corrected scope END */
+/* CBI PC-014 roof-leak comparator-corrected scope START */
+.roof-leak-page .text-link,
+.roof-leak-page .text-link:visited,
+.roof-leak-page .external-link,
+.roof-leak-page .external-link:visited,
+.roof-leak-page p a:not(.foundation-orange-cta),
+.roof-leak-page article a:not(.foundation-orange-cta){color:#EC6017!important;font-weight:700;text-decoration:none}
+.roof-leak-page .text-link:hover,
+.roof-leak-page .external-link:hover,
+.roof-leak-page p a:not(.foundation-orange-cta):hover,
+.roof-leak-page article a:not(.foundation-orange-cta):hover{color:#c94c0e!important;text-decoration:underline;text-underline-offset:3px}
+.roof-leak-page .text-link:focus-visible,
+.roof-leak-page .external-link:focus-visible{outline:3px solid #EC6017;outline-offset:3px}
+.roof-leak-hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:2rem;align-items:center}
+.roof-leak-hero-copy,.roof-leak-section-copy{min-width:0}
+.roof-leak-hero-figure,
+.roof-leak-photo-card{min-width:0;margin:0;overflow:hidden;border:1px solid var(--border);border-radius:18px;background:#0B1220;box-shadow:0 14px 30px rgba(0,0,0,.22);justify-self:center;width:100%}
+.roof-leak-hero-figure{max-width:500px}
+.roof-leak-photo-card{max-width:520px}
+.roof-leak-photo-stack{display:grid;gap:1.25rem;min-width:0;align-content:start}
+.roof-leak-hero-photo{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;object-position:center;background:#0B1220}
+.roof-leak-photo{display:block;width:100%;height:auto;max-height:340px;object-fit:contain;object-position:center;background:#0B1220;margin:0 auto}
+.roof-leak-hero-figure figcaption,
+.roof-leak-photo-card figcaption{display:block;padding:.75rem .9rem .9rem;color:#d8e0f3;background:#0B1220;line-height:1.45}
+.roof-leak-hero-figure figcaption strong,
+.roof-leak-photo-card figcaption strong{display:block;color:#fff;margin-bottom:.3rem}
+.roof-leak-hero-figure figcaption span,
+.roof-leak-photo-card figcaption span{display:block;color:#d8e0f3}
+.roof-leak-section-grid{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(260px,.72fr);gap:2rem;align-items:center}
+.roof-leak-section-grid-reverse{grid-template-columns:minmax(260px,.72fr) minmax(0,1.55fr)}
+.roof-leak-section-grid-reverse .roof-leak-section-copy{order:2}
+.roof-leak-section-grid-reverse .roof-leak-photo-card{order:1}
+.roof-leak-section-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.roof-leak-photo-stack{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:800px){
+.roof-leak-hero-grid,.roof-leak-section-grid,.roof-leak-section-grid-reverse{grid-template-columns:1fr}
+.roof-leak-photo-stack{grid-template-columns:1fr}
+.roof-leak-section-grid-reverse .roof-leak-section-copy,.roof-leak-section-grid-reverse .roof-leak-photo-card{order:initial}
+.roof-leak-hero-figure{order:2;max-width:500px}
+.roof-leak-photo-card{max-width:520px}
+.roof-leak-page .foundation-orange-cta{width:100%;min-width:0}
+.roof-leak-hero-photo,.roof-leak-photo{max-height:none}
+}
+/* CBI PC-014 roof-leak comparator-corrected scope END */
